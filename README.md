@@ -22,14 +22,14 @@ The app expects Ollama to be installed locally and a Dolphin model available in 
    Official installation & start instructions are in Ollama docs. :contentReference[oaicite:7]{index=7}
 
 2. Verify installation (example):
-# in a terminal
+in a terminal:
 ollama version
-# or check that Ollama service can be started (see next steps)
+or check that Ollama service can be started (see next steps)
 3. Download (pull) a Dolphin model
 
  To pull a model:
 
-# example: pull dolphin-mistral
+example: pull dolphin-mistral
 ollama pull dolphin-mistral
 
 
@@ -37,7 +37,7 @@ ollama pull dolphin-mistral
 
 Start the Ollama background server which main.py will contact:
 
-# open a terminal and run:
+open a terminal and run:
 ollama serve
 
 
