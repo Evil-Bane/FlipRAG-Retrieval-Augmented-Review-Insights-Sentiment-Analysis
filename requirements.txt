@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+requests
+langchain>=0.0.305
+sentence-transformers
+faiss-cpu
+python-multipart
+unstructured
+pypdfium2
+typing-extensions
+langchain_community
+pandas
+nltk
+vaderSentiment
+gradio-client
