@@ -1,5 +1,5 @@
 # FlipRAG-Retrieval-Augmented-Review-Insights-Sentiment-Analysis
-RAG-based product review analyzer powered by local LLM (Ollama + Dolphin3) — scrapes, summarizes, and chats with product reviews using retrieval-augmented generation.
+RAG-based Flipkart product review analyzer (Amazon's Rufus Clone for Flipkart) powered by local LLM (Ollama + Dolphin3) — scrapes, summarizes, and chats with product reviews using retrieval-augmented generation.
 ## Overview
 This repository contains a single `main.py` which runs the project's pipeline and communicates with a local Ollama LLM server.  
 The app expects Ollama to be installed locally and a Dolphin model available in Ollama. Use this README to set up Ollama, download the Dolphin model, start the server, and run `main.py`.
@@ -45,3 +45,11 @@ By default Ollama serves locally (the docs reference the default local endpoint 
 Ollama Documentation
 +1
 
+## How to use?
+
+1. Start the ollama server using:
+   ollama serve
+2. Run main.py
+3. Go to http://127.0.0.1:7860
+4. A Gradio based app will open. just paste flipkart URL
+5. Click on Chat (RAG) feature, it works like Amazon's Rufus.
